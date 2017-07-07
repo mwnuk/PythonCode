@@ -10,6 +10,7 @@ from sklearn import linear_model
 #Load Train and Test datasets
 from sklearn import datasets
 iris = datasets.load_boston
+print(iris)
 
 # one way to split data into Train and Test
 import pandas as pd
